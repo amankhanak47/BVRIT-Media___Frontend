@@ -1,0 +1,307 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 100vw;
+    /* background-image: url("./login.jpg");
+    background-size: cover;
+    background-position: center; */
+    
+}
+.allsignup{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+        width: 100vw;
+        background-image: url("./login.jpg");
+        background-size: cover;
+        background-position: center;
+}
+
+.home-heading-large {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.right-login {
+    /* background-color: rgb(241, 240, 167); */
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-login img {
+    margin-top: 1vh;
+    /* */
+    /**/
+
+}
+
+.loginbox {
+    /* background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.61), rgb(0, 0, 0)); */
+    width: 50vw;
+    /* position: absolute;
+    left: 0vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+    padding: 40px;
+    flex-direction: column;
+    /* background-color: white; */
+    opacity: 0.9;
+}
+
+.login-title {
+    color: #272b30;
+    font-family: system-ui;
+    font-size: 45px;
+    margin: 40px;
+    margin-bottom: 0%;
+}
+
+.loginbox p {
+    color: #3e3e3b;
+    font-family: system-ui;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.login-inputcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-component {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 80vw;
+    width: 400px;
+}
+
+.login-input {
+    border: 1px solid rgb(190, 188, 188);
+    width: 400px;
+    max-width: 80vw;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    background-color: white;
+    padding-left: 15px;
+    font-family: system-ui;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    width: 409px;
+    border: none;
+    max-width: 80vw;
+    /* border: 1px solid rgb(164, 156, 156); */
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30px;
+    height: fit-content;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: large;
+    text-transform: capitalize;
+    background-color: rgb(241, 240, 167);
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+}
+
+.login-footer-desc {
+    margin-top: 15px;
+    width: 410px;
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rem-password {
+    display: -webkit-inline-box;
+}
+
+.rem-password input {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.rem-password p {
+    font-weight: 500;
+}
+
+.login-footer-desc p {
+    width: 100%;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.login-footer-desc p a {
+    margin-left: 4px;
+}
+
+@media only screen and (max-width: 200px) {
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .right-login {
+        display: none;
+    }
+
+    .right-login img {
+        display: none;
+    }
+
+    .loginbox {
+        position: unset;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    .login-title {
+        color: #272b30;
+        font-family: system-ui;
+        font-size: 30px;
+        /* width: 100vw; */
+        justify-content: center;
+        margin: 40px;
+        margin-bottom: 0%;
+    }
+}
+
+.allmembermain {
+overflow-y: hidden;
+    /* background-color: rgb(231, 231, 231); */
+    background-image: url("./background.jpg");
+    /* background-repeat: no-repeat; */
+background-size: cover;
+
+}
+.allmembers{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.usericons{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(0deg, rgb(246, 198, 102), rgb(232, 234, 196));;
+    border-radius: 10px;
+}
+.user_img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10000px;
+}
+.user_name{
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.allimgs{
+    height: fit-content;
+    width: 100vw;
+    /* background-image: url("./background.jpg"); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        background-image: linear-gradient( to left,rgb(244, 220, 132), rgb(214, 194, 83))
+}
+
+.allphotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.allphotos img{
+    height: 350px;
+    width: 350px;
+    margin: 2px;
+}
+
+
+
+.allmemprofile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 237, 223);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.memprof_header{
+    border-top: 1px solid black;
+    padding: 20px 100px;
+    display: flex;
+    width: 80vw;
+    margin: 20px 50px;
+    border-bottom: 1px solid black;
+}
+.memprof_header img{
+    border-radius: 30px;
+    margin-right: 60px;
+    height: 200px;
+    width: 240px;
+    background-size: cover;
+    background-attachment: centre;
+}
+.memprof_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+}
+.memallphoto{
+    width: 80vw;
+        margin: 20px 50px;
+    
+        
+}
+.memallphoto img{
+    margin: 1px;
+}
+.insert{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 100px;
+}
